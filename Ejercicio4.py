@@ -6,3 +6,7 @@ Escribir un programa que pregunte por un número de
 teléfono con este formato y muestre por pantalla el 
 número de teléfono sin el prefijo y la extensión."""
 
+numero = input("introduce prefijo, numero y extensión, separado por guion\n")
+lista = numero.split("-")
+num = lista[1]
+print(num)

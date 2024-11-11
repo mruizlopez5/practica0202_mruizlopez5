@@ -6,4 +6,4 @@ con un solo carácter."""
 
 fecha = input("introduce tu fecha de nacimiento en formato dd/mm/aa\n")
 fecha = fecha.split("/")
-print("dia: ",fecha[0],"\nmes: ",fecha[1],"\naño:")
+print("dia: ",fecha[0],"\nmes: ",fecha[1],"\naño:",fecha[2])
